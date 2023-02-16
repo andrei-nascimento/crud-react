@@ -10,3 +10,17 @@ form input {
 form input[type='button'] {
   margin-right: 12px;
 }
+
+.pesquisa {
+  width: 50%;
+  margin: 4% auto;
+}
+
+table {
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+td {
+  line-height: 35px;
+}

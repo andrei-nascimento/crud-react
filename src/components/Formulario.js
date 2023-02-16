@@ -9,7 +9,10 @@ function Formulario( {
     nome, 
     idade, 
     cidade, 
-    alterar }) {
+    alterar,
+    remover,
+    cancelar
+    }) {
 
     return(
         <form>
@@ -49,18 +52,20 @@ function Formulario( {
                     <input 
                     type='button' 
                     value='Alterar' 
-                    className='btn btn-secondary' 
+                    className='btn btn-success'
                     onClick={alterar} 
                     />
                     <input 
                     type='button' 
                     value='Excluir' 
                     className='btn btn-danger' 
+                    onClick={remover}
                     />
                     <input 
                     type='button' 
-                    value='Cancelar' 
-                    className='btn btn-success'
+                    value='Cancelar'
+                    className='btn btn-secondary'
+                    onClick={cancelar}  
                     />
                 </div>
             }
