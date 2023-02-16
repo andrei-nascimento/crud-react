@@ -10,7 +10,7 @@ Está incluso também a busca de um usuário pelo seu nome, facilitando assim, a
  
 ## Imagens
 
-Tela inicial:
+Tela inicial com alguns usuários cadastrados:
 ![cap1](https://user-images.githubusercontent.com/76922943/219395032-92f4ac5f-7ad3-4234-a93c-53ce5c144d41.png)
 
 Com o usuário selecionado, é possível fazer a alteração e exclução dos dados. Caso não queira fazer nenhuma ação, basta cancelar para retornar:
