@@ -1,4 +1,4 @@
-# Projeto CRUD React 
+# Projeto CRUD React 🗂️
 
 A aplicação tem como intuito simular um CRUD(Create, Read, Update, Delete) onde é possível Cadastrar, Editar, Verificar ou Remover determinado usuário. 
 Desenvolvido em React/Javascript utilizando Bootstrap para estilização. 
