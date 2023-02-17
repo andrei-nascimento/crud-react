@@ -12,18 +12,23 @@ function App() {
   const [cidade, setCidade] = useState('');
   const [vetor, setVetor] = useState([]);
 
-  // Função para Cadastrar
+  // Função para Cadastrar o usuário
   const cadastrar = () => {
     let obj = {
       'nome': nome,
       'idade': idade,
       'cidade': cidade
     }
-    setVetor([...vetor, obj]);
+    
+    if(nome && idade && cidade !== '') {
+      setVetor([...vetor, obj]);
 
-    setNome('');
-    setIdade('');
-    setCidade('');
+      setNome('');
+      setIdade('');
+      setCidade('');
+    } else {
+      alert('Preencha todos os campos para cadastrar!')
+    }
   }
 
   // Função para Selecionar o usuário
