@@ -22,7 +22,6 @@ Filtrando pelo nome digitado no campo de busca:
 ## Features
 
 - Incluir mais dados do usuário (ex: CPF, e-mail e etc.);
-- Ajustar a lógica do botão selecionar quando é usada a busca por um nome; 
 - Melhorar o sistema de busca para filtrar o usuário por outros dados além do nome;
 - Guardar os dados inseridos em uma aplicação backend, mantendo-os registrados mesmo atulizando a página;
 - Desenvolver uma tela de Login para cada Administrador poder utilizar e manusear sua base de dados.
