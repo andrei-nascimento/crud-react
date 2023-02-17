@@ -23,21 +23,24 @@ function Formulario( {
             </div>
 
             <form>
-                <input 
+                <input
+                    required
                     type='text' 
-                    placeholder='Nome' 
+                    placeholder='Nome'
                     className='form-control' 
                     onChange={e => setNome(e.target.value)} 
                     value={nome}
                 />
                 <input 
-                    type='text' 
+                    required
+                    type='number' 
                     placeholder='Idade' 
                     className='form-control' 
                     onChange={e => setIdade(e.target.value)} 
                     value={idade}
                 />
                 <input
+                    required
                     type='text' 
                     placeholder='Cidade' 
                     className='form-control' 
