@@ -4,6 +4,10 @@ function Tabela({vetor, selecionar}) {
 
     const [termo, setTermo] = useState('');
 
+    const primeiraLetraMaiuscula = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     return(
         <div>
             <input 
@@ -25,7 +29,7 @@ function Tabela({vetor, selecionar}) {
                 </thead>
                 <tbody>
                     {
-                        vetor.filter(obj => obj.nome.includes(termo)).map((obj, indice) => (
+                        vetor.filter(obj => obj.nome.includes(primeiraLetraMaiuscula(termo))).map((obj, indice) => (
                             <tr key={indice}>
                                 <td>{indice + 1}</td>
                                 <td>{obj.nome}</td>
